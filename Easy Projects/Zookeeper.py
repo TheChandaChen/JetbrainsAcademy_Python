@@ -13,7 +13,7 @@ Switching on camera from habitat with camels...
               ! ; !'',,,',',,,,'!  ;   ;:
              : ;  ! !       ! ! ;  ;   :;
              ; ;   ! !      ! !  ; ;   ;,
-            ; ;    ! !     ! !   ; ;     
+            ; ;    ! !     ! !   ; ;
             ; ;    ! !    ! !     ; ;
            ;,,      !,!   !,!     ;,;
            /_I      L_I   L_I     /_I
@@ -113,7 +113,7 @@ Switching on camera from habitat with rabbits...
  /| ;-"~ _  l
 / l/ ,-"~    \
 \//\/      .- \
- Y        /    Y 
+ Y        /    Y
  l       I     !
  ]\      _\    /"\
 (" ~----( ~   Y.  )
@@ -126,11 +126,11 @@ It seems there will be more rabbits soon!"""
 animals = [camel, lion, deer, goose, bat, rabbit]
 
 while True:
-   habitat = input("Which habitat # do you need?")
-   if habitat == "exit":
-      break
-   else:
-      habitat = int(habitat)
-      print(animals[habitat])
+    habitat = input("Which habitat # do you need?")
+    if habitat == "exit":
+        break
+    else:
+        habitat = int(habitat)
+        print(animals[habitat])
 
 print("See you!")
